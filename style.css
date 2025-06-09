@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #cecbcb;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+#sudoku-board {
+  display: grid;
+  grid-template-columns: repeat(9, 40px);
+  gap: 1px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #ccc;
+}
+
+input.prefilled {
+  background-color: #ddd;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+#message {
+  margin-top: 10px;
+  font-weight: bold;
+}

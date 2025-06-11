@@ -4,6 +4,7 @@ body {
   background-color: #cecbcb;
   margin: 0;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -32,7 +33,6 @@ input.prefilled {
   font-weight: bold;
   pointer-events: none;
 }
-
 
 button {
   margin: 5px;

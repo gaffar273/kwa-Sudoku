@@ -1,7 +1,6 @@
 let board = [];
 let solution = [];
 
-
 function solveSudoku(grid) {
   const findEmpty = () => {
     for (let r = 0; r < 9; r++)
@@ -76,7 +75,6 @@ function renderBoard() {
         cell.value = board[r][c];
         cell.classList.add('prefilled');
       }
-
       container.appendChild(cell);
     }
   }
@@ -132,6 +130,5 @@ function newGame() {
   renderBoard();
   document.getElementById('message').textContent = '';
 }
-
 
 window.onload = newGame;
